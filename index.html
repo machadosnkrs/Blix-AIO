@@ -12,7 +12,10 @@
 body {
     background-image: url(imgs/bluebackground.jpg);
 } 
-li {
+.toolbar{
+    float: left
+}
+.toolbar1 {
     float: right;
     border-right: 1px solid white;
 }
@@ -53,12 +56,12 @@ li a:hover {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="Bot, Blix, AIO">
         <meta name="description" content="Blix AIO">
-       <title>Blix AIO</title>
+       <title>Home - Blix AIO</title>
     </head>
     <body>
         <div name="toolbar">
-            <a class="toolbar1" href="index.html"><img class ="logo" alt="" src="imgs/cityofflight.jpg"></a>
             <ul>
+                <li><a class="toolbar" href="index.html"><img class ="logo" alt="" src="imgs/cityofflight.jpg"></a></li>
                 <li><a class="toolbar1" href="discordbot.html">Discord Bot</a></li>
                 <li><a class="toolbar1" href="gspread.html">Gspread Integration</a></li>
                 <li><a class="toolbar1" href="BlixAIO.html">Blix AIO</a></li>
